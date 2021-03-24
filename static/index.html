@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="static.css"></link>
+</head>
+<body>
+    <!-- <video src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/blurry-trees.mov" autoplay loop playsinline muted></video> -->
+    <video src="../assets/imgs/bgd_short.mp4" autoplay loop playsinline muted></video>
+
+    <header class="viewport-header">
+        <h1>
+            Delta
+            <span>Calculator</span>
+        </h1>
+    </header>
+   
+    <div class="form">
+        <form class="delta_v" name="delta_v" id="delta_v">
+            <div class=center-container>
+                <label for="vehicle">Vehicle</label><br>
+                <select class="full-width form-item" name="vehicle" id="vehicle">
+                    <option value="1">Test Vehicle 1</option>
+                    <option value="2">Test Vehicle 2</option>
+                    <option value="3">Test Vehicle 3</option>
+                </select>
+                <label for="destination">Destination</label><br>
+                <select class="full-width form-item" name="destination" id="destination">
+                    <option value="1">Mercury</option>
+                    <option value="2">Venus</option>
+                    <option value="3">Pluto</option>
+                </select>
+                <label for="weight">Weight(KG):</label>
+                <input class="full-width form-item" type="text" id="weight" name="weight">
+                <input class="full-width form-item" type="submit" value="Calculate">
+                <label for="output">Travel Time</label>
+                <input class="full-width" type="textarea" name="output" id="output">
+            </div>
+        </form>
+    </div>
+</body>
+<!-- Loaded after body so it can access dom elements -->
+<script src="../js/main.js"></script>
+</html>

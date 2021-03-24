@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'light';
+    src: url('../assets/fonts/Montserrat-Light.otf')
+}
+@font-face {
+    font-family: 'light-italic';
+    src: url('../assets/fonts/Montserrat-LightItalic.otf')
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('../assets/fonts/Montserrat-Bold.otf');
+}
+@font-face {
+    font-family: 'bold-italic';
+    src: url('../assets/fonts/Montserrat-SemiBoldItalic.otf');
+}
+
+@font-face {
+    font-family: "medium";
+    src: url('../assets/fonts/Montserrat-Medium.otf');
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+html, body {
+    height: 100%
+}
+body {
+    font: 1.3rem sans-serif;
+    margin: 0;
+}
+
+.viewport-header {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'light';
+    color: #a0805a;
+    text-transform: uppercase;
+    letter-spacing: 2vw;
+    line-height: 1.2;
+    font-size: 3vw;
+    text-align: center;
+}
+
+h1 .span {
+    font-family: 'light';
+    display: inline-block;
+    font-size: 10vw;
+    letter-spacing: -1.3vw;
+}
+form {
+    position : relative;
+    width  : 500px;
+    height : 600px;
+    margin : 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: #a0805a;
+}
+
+
+.half-width {
+    width: 50%;
+}
+
+.three-quarter-width {
+    width: 75%;
+}
+
+.full-width{
+    width: 100%;
+}
+.form-item {
+    margin-bottom: 75px;
+}
+
+button, input, select, text {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input, text, select, button {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
