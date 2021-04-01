@@ -4,15 +4,15 @@ var json = {
         {
             "id": "1",
             "name": "Saturn V",
-            "stage 1 wet mass": 2290000,
-            "stage 1 dry mass": 130000,
-            "stage 1 exhaust velocity": 2.58,
-            "stage 2 wet mass": 496200,
-            "stage 2 dry mass": 40100,
-            "stage 2 exhaust velocity": 4.13,
-            "stage 3 wet mass": 123000,
-            "stage 3 dry mass": 13500,
-            "stage 3 exhaust velocity": 4.13
+            "stage_1_wet_mass": 2290000,
+            "stage_1_dry_mass": 130000,
+            "stage_1_exhaust_velocity": 2.58,
+            "stage_2_wet_mass": 496200,
+            "stage_2_dry_mass": 4010,
+            "stage_2_exhaust_velocity": 4.13,
+            "stage_3_wet_mass": 123000,
+            "stage_3_dry_mass": 13500,
+            "stage_3_exhaust_velocity": 4.13
         },
         {
             "id": "2",
@@ -107,7 +107,7 @@ function getFormVals() {
         return;
     }
     //Delta V = Vehicle Exaust Velocity * Log(wet mass/dry mass)
-    Out((vehicle["stage 1 exhaust velocity"] * math.log(vehicle["stage 1 wet mass"] / vehicle["stage 1 dry mass"]) + (vehicle["stage 2 exhaust velocity"] * math.log(vehicle["stage 2 wet mass"] / vehicle["stage 2 dry mass"]) + (vehicle["stage 3 exhaust velocity"] * math.log(vehicle["stage 3 wet mass"] / vehicle["stage 3 dry mass"]))
+    Out((vehicle.stage_1_exhaust_velocity*math.log(vehicle.stage_1_wet_mass / vehicle.stage_1_dry_mass) + (vehicle.stage_2_exhaust_velocity*math.log(vehicle.stage_2_wet_mass / vehicle.stage_2_dry_mass) + (vehicle.stage_3_exhaust_velocity*math.log(vehicle.stage_3_wet_mass / vehicle.stage_3_dry_mass))
     // Above formula SHOULD be printing out exactly 12.97 at the moment if you select "Saturn V". This script will be working when I see that number. 
     
     }
