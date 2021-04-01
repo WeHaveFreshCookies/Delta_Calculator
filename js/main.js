@@ -2,17 +2,17 @@ var json = {
     "Vehicles": [
         // Mass is in kg. Velocities are in kms^-1
         {
-            "id": "1",
-            "name": "Saturn V",
-            "stage_1_wet_mass": 2290000,
-            "stage_1_dry_mass": 130000,
-            "stage_1_exhaust_velocity": 2.58,
-            "stage_2_wet_mass": 496200,
-            "stage_2_dry_mass": 4010,
-            "stage_2_exhaust_velocity": 4.13,
-            "stage_3_wet_mass": 123000,
-            "stage_3_dry_mass": 13500,
-            "stage_3_exhaust_velocity": 4.13
+            id: "1",
+            name: "Saturn V",
+            stage_1_wet_mass: 2290000,
+            stage_1_dry_mass: 130000,
+            stage_1_exhaust_velocity: 2.58,
+            stage_2_wet_mass: 496200,
+            stage_2_dry_mass: 4010,
+            stage_2_exhaust_velocity: 4.13,
+            stage_3_wet_mass: 123000,
+            stage_3_dry_mass: 13500,
+            stage_3_exhaust_velocity: 4.13
         },
         {
             "id": "2",
