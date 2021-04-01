@@ -2,8 +2,8 @@ var json = {
     "Vehicles": [
         // Mass is in kg. Velocities are in kms^-1
         {
-            id: "1",
-            name: "Saturn V",
+            id: 1,
+            name: Saturn V,
             stage_1_wet_mass: 2290000,
             stage_1_dry_mass: 130000,
             stage_1_exhaust_velocity: 2.58,
